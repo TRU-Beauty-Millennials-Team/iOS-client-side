@@ -7,21 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		540312CA1E7D47FA00626A38 /* CharacterListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540312C91E7D47FA00626A38 /* CharacterListItem.swift */; };
+		54168B4D1E7D006E00DBDF75 /* api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54168B4C1E7D006E00DBDF75 /* api.swift */; };
+		54168B4F1E7D01D700DBDF75 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54168B4E1E7D01D700DBDF75 /* Extensions.swift */; };
 		54834C731E7CF40100E4B02F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54834C721E7CF40100E4B02F /* AppDelegate.swift */; };
-		54834C751E7CF40100E4B02F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54834C741E7CF40100E4B02F /* ViewController.swift */; };
-		54834C781E7CF40100E4B02F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54834C761E7CF40100E4B02F /* Main.storyboard */; };
+		54834C751E7CF40100E4B02F /* CharacterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54834C741E7CF40100E4B02F /* CharacterListViewController.swift */; };
 		54834C7A1E7CF40100E4B02F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54834C791E7CF40100E4B02F /* Assets.xcassets */; };
 		54834C7D1E7CF40100E4B02F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54834C7B1E7CF40100E4B02F /* LaunchScreen.storyboard */; };
+		54834C8B1E7CF5FC00E4B02F /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54834C8A1E7CF5FC00E4B02F /* Server.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31F99ACA95557AF5560FA856 /* Pods-TruNarutoClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruNarutoClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-TruNarutoClient/Pods-TruNarutoClient.release.xcconfig"; sourceTree = "<group>"; };
+		540312C91E7D47FA00626A38 /* CharacterListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterListItem.swift; sourceTree = "<group>"; };
+		54168B4C1E7D006E00DBDF75 /* api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = api.swift; sourceTree = "<group>"; };
+		54168B4E1E7D01D700DBDF75 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		54834C6F1E7CF40100E4B02F /* TruNarutoClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruNarutoClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54834C721E7CF40100E4B02F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54834C741E7CF40100E4B02F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		54834C771E7CF40100E4B02F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54834C741E7CF40100E4B02F /* CharacterListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewController.swift; sourceTree = "<group>"; };
 		54834C791E7CF40100E4B02F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54834C7C1E7CF40100E4B02F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54834C7E1E7CF40100E4B02F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54834C8A1E7CF5FC00E4B02F /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		A331B9B3D3C36A29943CD6AF /* Pods-TruNarutoClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruNarutoClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TruNarutoClient/Pods-TruNarutoClient.debug.xcconfig"; sourceTree = "<group>"; };
+		D77249A8F0E784CD33846BD4 /* Pods_TruNarutoClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruNarutoClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,11 +44,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23D1F6C9C6AAFE2418144344 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D77249A8F0E784CD33846BD4 /* Pods_TruNarutoClient.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		54834C661E7CF40100E4B02F = {
 			isa = PBXGroup;
 			children = (
 				54834C711E7CF40100E4B02F /* TruNarutoClient */,
 				54834C701E7CF40100E4B02F /* Products */,
+				7B21631049B22355568F28A0 /* Pods */,
+				23D1F6C9C6AAFE2418144344 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +84,8 @@
 		54834C841E7CF4E400E4B02F /* ApiService */ = {
 			isa = PBXGroup;
 			children = (
+				54834C8A1E7CF5FC00E4B02F /* Server.swift */,
+				54168B4C1E7D006E00DBDF75 /* api.swift */,
 			);
 			name = ApiService;
 			sourceTree = "<group>";
@@ -72,7 +93,7 @@
 		54834C861E7CF51000E4B02F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				54834C741E7CF40100E4B02F /* ViewController.swift */,
+				54834C741E7CF40100E4B02F /* CharacterListViewController.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -81,10 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				54834C721E7CF40100E4B02F /* AppDelegate.swift */,
-				54834C761E7CF40100E4B02F /* Main.storyboard */,
 				54834C791E7CF40100E4B02F /* Assets.xcassets */,
 				54834C7B1E7CF40100E4B02F /* LaunchScreen.storyboard */,
 				54834C7E1E7CF40100E4B02F /* Info.plist */,
+				54168B4E1E7D01D700DBDF75 /* Extensions.swift */,
 			);
 			name = SupportFiles;
 			sourceTree = "<group>";
@@ -92,8 +113,18 @@
 		54834C891E7CF54C00E4B02F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				540312C91E7D47FA00626A38 /* CharacterListItem.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		7B21631049B22355568F28A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A331B9B3D3C36A29943CD6AF /* Pods-TruNarutoClient.debug.xcconfig */,
+				31F99ACA95557AF5560FA856 /* Pods-TruNarutoClient.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,7 +189,6 @@
 			files = (
 				54834C7D1E7CF40100E4B02F /* LaunchScreen.storyboard in Resources */,
 				54834C7A1E7CF40100E4B02F /* Assets.xcassets in Resources */,
-				54834C781E7CF40100E4B02F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,7 +199,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54834C751E7CF40100E4B02F /* ViewController.swift in Sources */,
+				54168B4F1E7D01D700DBDF75 /* Extensions.swift in Sources */,
+				54834C751E7CF40100E4B02F /* CharacterListViewController.swift in Sources */,
+				540312CA1E7D47FA00626A38 /* CharacterListItem.swift in Sources */,
+				54834C8B1E7CF5FC00E4B02F /* Server.swift in Sources */,
+				54168B4D1E7D006E00DBDF75 /* api.swift in Sources */,
 				54834C731E7CF40100E4B02F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,14 +211,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		54834C761E7CF40100E4B02F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54834C771E7CF40100E4B02F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		54834C7B1E7CF40100E4B02F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,6 +317,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = T632MJ5A3T;
 				INFOPLIST_FILE = TruNarutoClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -304,6 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = T632MJ5A3T;
 				INFOPLIST_FILE = TruNarutoClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -332,6 +360,7 @@
 				54834C831E7CF40100E4B02F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
