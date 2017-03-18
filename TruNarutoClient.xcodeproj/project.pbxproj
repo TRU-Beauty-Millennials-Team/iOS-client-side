@@ -15,6 +15,7 @@
 		54834C7A1E7CF40100E4B02F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54834C791E7CF40100E4B02F /* Assets.xcassets */; };
 		54834C7D1E7CF40100E4B02F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54834C7B1E7CF40100E4B02F /* LaunchScreen.storyboard */; };
 		54834C8B1E7CF5FC00E4B02F /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54834C8A1E7CF5FC00E4B02F /* Server.swift */; };
+		54AB43141E7D74860084DEF9 /* CharacterProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AB43131E7D74860084DEF9 /* CharacterProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		54834C7C1E7CF40100E4B02F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54834C7E1E7CF40100E4B02F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54834C8A1E7CF5FC00E4B02F /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		54AB43131E7D74860084DEF9 /* CharacterProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterProfileViewController.swift; sourceTree = "<group>"; };
 		A331B9B3D3C36A29943CD6AF /* Pods-TruNarutoClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruNarutoClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TruNarutoClient/Pods-TruNarutoClient.debug.xcconfig"; sourceTree = "<group>"; };
 		D77249A8F0E784CD33846BD4 /* Pods_TruNarutoClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruNarutoClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				54834C741E7CF40100E4B02F /* CharacterListViewController.swift */,
+				54AB43131E7D74860084DEF9 /* CharacterProfileViewController.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			files = (
 				54168B4F1E7D01D700DBDF75 /* Extensions.swift in Sources */,
 				54834C751E7CF40100E4B02F /* CharacterListViewController.swift in Sources */,
+				54AB43141E7D74860084DEF9 /* CharacterProfileViewController.swift in Sources */,
 				540312CA1E7D47FA00626A38 /* CharacterListItem.swift in Sources */,
 				54834C8B1E7CF5FC00E4B02F /* Server.swift in Sources */,
 				54168B4D1E7D006E00DBDF75 /* api.swift in Sources */,

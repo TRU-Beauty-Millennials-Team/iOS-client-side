@@ -44,7 +44,7 @@ class CharacterListViewController: UIViewController, UICollectionViewDelegateFlo
 
         // Configure CollectionView
         let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
-        layout.sectionInset = UIEdgeInsets(top: 80, left: 10, bottom: 10, right: 10)
+        layout.sectionInset = UIEdgeInsets(top: 40, left: 20, bottom: 20, right: 10)
         layout.itemSize = CGSize(width: 150, height: 120)
 
         collectionView = UICollectionView(frame: self.view.frame, collectionViewLayout: layout)
@@ -60,9 +60,9 @@ class CharacterListViewController: UIViewController, UICollectionViewDelegateFlo
         navbar.tintColor = UIColor.lightGray
         let navItem = UINavigationItem(title: "Select Character")
         let navBarbutton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.search, target: self, action: nil)
-        navItem.leftBarButtonItem = navBarbutton
-        navbar.items = [navItem]
-        view.addSubview(navbar)
+        navigationController?.title = "Select Character"
+        //navigationItem.title = "Select Character"
+        //navigationItem.leftBarButtonItem = navBarbutton
     }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -77,6 +77,12 @@ class CharacterListViewController: UIViewController, UICollectionViewDelegateFlo
         cell.initUI(img: img, title: name)
         return cell
     }
+
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let characterProfile = CharacterProfileViewController()
+        characterProfile.name = (characterList[indexPath.row]?.name)!
+        self.navigationController!.pushViewController(characterProfile, animated: true)
+    }
 }
 
 import UIKit
@@ -89,8 +95,8 @@ class CharacterCell: UICollectionViewCell {
         if (imageView == nil) {
             myLabel = UILabel()
             imageView = UIImageView()
-            addSubview(myLabel!)
             addSubview(imageView!)
+            addSubview(myLabel!)
         }
         downloadImage(url: img!)
 
@@ -98,6 +104,7 @@ class CharacterCell: UICollectionViewCell {
         myLabel!.text = title.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
         myLabel!.font = UIFont(name: "HelveticaNeue", size: 14)
         myLabel!.backgroundColor = UIColor.blue
+        myLabel!.textColor = UIColor.white
         myLabel!.sizeToFit()
         myLabel!.frame.origin = CGPoint(x: frame.width - (myLabel?.frame.width)! - 7, y: frame.height - 15)
         layer.cornerRadius = 8

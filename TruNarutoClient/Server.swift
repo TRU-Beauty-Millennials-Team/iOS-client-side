@@ -16,7 +16,7 @@ class Server {
     private init() {
     }
 
-    private static var rootURL = URL(string: "http://172.16.89.154:3000")!
+    private static var rootURL = URL(string: "http://212.19.138.142:3000")!
     private static var request : NSMutableURLRequest = NSMutableURLRequest()
 
     public static func sendRequest(pathURL: String, parameters: [String: AnyObject], completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) {
