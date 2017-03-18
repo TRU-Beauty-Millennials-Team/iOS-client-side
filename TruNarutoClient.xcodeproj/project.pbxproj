@@ -54,14 +54,46 @@
 		54834C711E7CF40100E4B02F /* TruNarutoClient */ = {
 			isa = PBXGroup;
 			children = (
-				54834C721E7CF40100E4B02F /* AppDelegate.swift */,
+				54834C891E7CF54C00E4B02F /* Models */,
+				54834C871E7CF52D00E4B02F /* SupportFiles */,
+				54834C841E7CF4E400E4B02F /* ApiService */,
+				54834C861E7CF51000E4B02F /* Views */,
+			);
+			path = TruNarutoClient;
+			sourceTree = "<group>";
+		};
+		54834C841E7CF4E400E4B02F /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ApiService;
+			sourceTree = "<group>";
+		};
+		54834C861E7CF51000E4B02F /* Views */ = {
+			isa = PBXGroup;
+			children = (
 				54834C741E7CF40100E4B02F /* ViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		54834C871E7CF52D00E4B02F /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				54834C721E7CF40100E4B02F /* AppDelegate.swift */,
 				54834C761E7CF40100E4B02F /* Main.storyboard */,
 				54834C791E7CF40100E4B02F /* Assets.xcassets */,
 				54834C7B1E7CF40100E4B02F /* LaunchScreen.storyboard */,
 				54834C7E1E7CF40100E4B02F /* Info.plist */,
 			);
-			path = TruNarutoClient;
+			name = SupportFiles;
+			sourceTree = "<group>";
+		};
+		54834C891E7CF54C00E4B02F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
