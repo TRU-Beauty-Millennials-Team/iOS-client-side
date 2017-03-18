@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54834C731E7CF40100E4B02F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54834C721E7CF40100E4B02F /* AppDelegate.swift */; };
+		54834C751E7CF40100E4B02F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54834C741E7CF40100E4B02F /* ViewController.swift */; };
+		54834C781E7CF40100E4B02F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54834C761E7CF40100E4B02F /* Main.storyboard */; };
+		54834C7A1E7CF40100E4B02F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54834C791E7CF40100E4B02F /* Assets.xcassets */; };
+		54834C7D1E7CF40100E4B02F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54834C7B1E7CF40100E4B02F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54834C6F1E7CF40100E4B02F /* TruNarutoClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruNarutoClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54834C721E7CF40100E4B02F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54834C741E7CF40100E4B02F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54834C771E7CF40100E4B02F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54834C791E7CF40100E4B02F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54834C7C1E7CF40100E4B02F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54834C7E1E7CF40100E4B02F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54834C6C1E7CF40100E4B02F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54834C661E7CF40100E4B02F = {
+			isa = PBXGroup;
+			children = (
+				54834C711E7CF40100E4B02F /* TruNarutoClient */,
+				54834C701E7CF40100E4B02F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54834C701E7CF40100E4B02F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54834C6F1E7CF40100E4B02F /* TruNarutoClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54834C711E7CF40100E4B02F /* TruNarutoClient */ = {
+			isa = PBXGroup;
+			children = (
+				54834C721E7CF40100E4B02F /* AppDelegate.swift */,
+				54834C741E7CF40100E4B02F /* ViewController.swift */,
+				54834C761E7CF40100E4B02F /* Main.storyboard */,
+				54834C791E7CF40100E4B02F /* Assets.xcassets */,
+				54834C7B1E7CF40100E4B02F /* LaunchScreen.storyboard */,
+				54834C7E1E7CF40100E4B02F /* Info.plist */,
+			);
+			path = TruNarutoClient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54834C6E1E7CF40100E4B02F /* TruNarutoClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54834C811E7CF40100E4B02F /* Build configuration list for PBXNativeTarget "TruNarutoClient" */;
+			buildPhases = (
+				54834C6B1E7CF40100E4B02F /* Sources */,
+				54834C6C1E7CF40100E4B02F /* Frameworks */,
+				54834C6D1E7CF40100E4B02F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TruNarutoClient;
+			productName = TruNarutoClient;
+			productReference = 54834C6F1E7CF40100E4B02F /* TruNarutoClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54834C671E7CF40100E4B02F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Nurlan;
+				TargetAttributes = {
+					54834C6E1E7CF40100E4B02F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T632MJ5A3T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 54834C6A1E7CF40100E4B02F /* Build configuration list for PBXProject "TruNarutoClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54834C661E7CF40100E4B02F;
+			productRefGroup = 54834C701E7CF40100E4B02F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54834C6E1E7CF40100E4B02F /* TruNarutoClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54834C6D1E7CF40100E4B02F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54834C7D1E7CF40100E4B02F /* LaunchScreen.storyboard in Resources */,
+				54834C7A1E7CF40100E4B02F /* Assets.xcassets in Resources */,
+				54834C781E7CF40100E4B02F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54834C6B1E7CF40100E4B02F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54834C751E7CF40100E4B02F /* ViewController.swift in Sources */,
+				54834C731E7CF40100E4B02F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		54834C761E7CF40100E4B02F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54834C771E7CF40100E4B02F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54834C7B1E7CF40100E4B02F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54834C7C1E7CF40100E4B02F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54834C7F1E7CF40100E4B02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54834C801E7CF40100E4B02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54834C821E7CF40100E4B02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T632MJ5A3T;
+				INFOPLIST_FILE = TruNarutoClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NKO.TruNarutoClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		54834C831E7CF40100E4B02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T632MJ5A3T;
+				INFOPLIST_FILE = TruNarutoClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NKO.TruNarutoClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54834C6A1E7CF40100E4B02F /* Build configuration list for PBXProject "TruNarutoClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54834C7F1E7CF40100E4B02F /* Debug */,
+				54834C801E7CF40100E4B02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54834C811E7CF40100E4B02F /* Build configuration list for PBXNativeTarget "TruNarutoClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54834C821E7CF40100E4B02F /* Debug */,
+				54834C831E7CF40100E4B02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54834C671E7CF40100E4B02F /* Project object */;
+}
